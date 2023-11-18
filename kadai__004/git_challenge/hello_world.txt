@@ -1,0 +1,28 @@
+Hello,world!
+こんにちは、世界！
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+suzukisatoshidainoMacBook-Pro:tomo suzukitomohiro$ cd TOMO
+bash: cd: TOMO: No such file or directory
+suzukisatoshidainoMacBook-Pro:tomo suzukitomohiro$ cd
+suzukisatoshidainoMacBook-Pro:~ suzukitomohiro$ cd tomo
+suzukisatoshidainoMacBook-Pro:tomo suzukitomohiro$ mkdir git_challenge
+suzukisatoshidainoMacBook-Pro:tomo suzukitomohiro$ cd git_challenge
+suzukisatoshidainoMacBook-Pro:git_challenge suzukitomohiro$ git init
+Initialized empty Git repository in /Users/suzukitomohiro/tomo/git_challenge/.git/
+suzukisatoshidainoMacBook-Pro:git_challenge suzukitomohiro$ git add hello_world.txt
+suzukisatoshidainoMacBook-Pro:git_challenge suzukitomohiro$ fitco
+bash: fitco: command not found
+suzukisatoshidainoMacBook-Pro:git_challenge suzukitomohiro$ git commit -m "hello_world.txtを追加"
+[main (root-commit) af588cb] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+suzukisatoshidainoMacBook-Pro:git_challenge suzukitomohiro$ git add hello_world.txt
+suzukisatoshidainoMacBook-Pro:git_challenge suzukitomohiro$ git commit -m "日本語訳を追記"
+[main 97f920e] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+suzukisatoshidainoMacBook-Pro:git_challenge suzukitomohiro$ git log --oneline
+97f920e (HEAD -> main) 日本語訳を追記
+af588cb hello_world.txtを追加
+suzukisatoshidainoMacBook-Pro:git_challenge suzukitomohiro$ 
